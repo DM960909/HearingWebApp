@@ -1,0 +1,19 @@
+@model TinnitusInputViewModel
+
+<h2>Log your current tinnitus condition</h2>
+
+<form asp-action="Input" method="post">
+    <div class="form-group">
+        <label asp-for="SeverityScore"></label>
+        <input asp-for="SeverityScore" class="form-control" />
+        <span asp-validation-for="SeverityScore" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CopingScore"></label>
+        <input asp-for="CopingScore" class="form-control" />
+        <span asp-validation-for="CopingScore" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

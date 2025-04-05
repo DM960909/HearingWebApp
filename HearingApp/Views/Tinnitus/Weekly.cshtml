@@ -1,0 +1,32 @@
+@model List<WeeklyViewModel>
+
+<h2>Weekly Summary</h2>
+
+@foreach (var week in Model)
+{
+    <div class="mb-4">
+        <h5>Week @week.WeekNumber</h5>
+        <p><strong>Avg Severity:</strong> @week.AverageSeverity.ToString("0.0")</p>
+        <p><strong>Avg Coping:</strong> @week.AverageCoping.ToString("0.0")</p>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Severity</th>
+                    <th>Coping</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var entry in week.Entries)
+                {
+                    <tr>
+                        <td>@entry.CreatedAt.ToShortDateString()</td>
+                        <td>@entry.SeverityScore</td>
+                        <td>@entry.CopingScore</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

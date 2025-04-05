@@ -1,0 +1,35 @@
+@model List<TinnitusScore>
+
+<ul class="nav nav-tabs mb-3">
+    <li class="nav-item">
+        <a class="nav-link active" asp-action="Dashboard" asp-controller="Tinnitus">All</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-action="Weekly" asp-controller="Tinnitus">Weekly</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-action="Calendar" asp-controller="Tinnitus">Calendar View</a>
+    </li>
+</ul>
+
+<h2>Your Tinnitus History</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Severity</th>
+            <th>Coping</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var score in Model)
+        {
+            <tr>
+                <td>@score.CreatedAt.ToShortDateString()</td>
+                <td>@score.SeverityScore</td>
+                <td>@score.CopingScore</td>
+                <td>@score.CreatedAt.ToString("dd MMM yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
