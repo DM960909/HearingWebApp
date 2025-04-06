@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UMx14UuhrESS2PSIMsYk23xNXlWkiDnbMCFvDiJLmy8=",
+  "Hash": "mx49y3F85zfYLSSOQGA0PwWPS9A4KKc72oDf032tly4=",
   "Source": "HearingApp",
   "BasePath": "_content/HearingApp",
   "Mode": "Default",
@@ -3503,12 +3503,12 @@
       "OriginalItemSpec": "/Users/dylan/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.3/staticwebassets/V5/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-syntz4g1w9.gz",
+      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz",
       "SourceId": "HearingApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/HearingApp",
-      "RelativePath": "css/site#[.{fingerprint=syntz4g1w9}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ti8qq3l1g7}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3517,8 +3517,8 @@
       "RelatedAsset": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yfjbpep8h4",
-      "Integrity": "0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4=",
+      "Fingerprint": "vhjkznu6hv",
+      "Integrity": "TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/css/site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "syntz4g1w9",
-      "Integrity": "lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc=",
+      "Fingerprint": "ti8qq3l1g7",
+      "Integrity": "W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -4068,6 +4068,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/landingimage.jpg",
+      "SourceId": "HearingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/",
+      "BasePath": "_content/HearingApp",
+      "RelativePath": "images/landingimage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tykxsfw66l",
+      "Integrity": "m1/JAi42nUyGptQL3hya0XGdrZg+iWeOVpix0OBs/yc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/landingimage.jpg"
+    },
+    {
+      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/logo.png",
+      "SourceId": "HearingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/",
+      "BasePath": "_content/HearingApp",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xh9wn98f46",
+      "Integrity": "64zxsSRi8Z7Q+x8fyWkZ6ULkHS5nj4hBpEWL8jOqaNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
     },
     {
       "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/js/site.js",
@@ -5391,12 +5433,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-syntz4g1w9.gz",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002242152466"
+          "Quality": "0.001828153565"
         }
       ],
       "ResponseHeaders": [
@@ -5406,15 +5448,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "445"
+          "Value": "546"
         },
         {
           "Name": "ETag",
-          "Value": "\"0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4=\""
+          "Value": "\"TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5434,13 +5476,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc=\""
+          "Value": "W/\"W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc="
+          "Value": "sha256-W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c="
         }
       ]
     },
@@ -5455,7 +5497,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "1313"
         },
         {
           "Name": "Content-Type",
@@ -5463,11 +5505,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc=\""
+          "Value": "\"W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5477,13 +5519,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc="
+          "Value": "sha256-W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-syntz4g1w9.gz",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5492,7 +5534,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "445"
+          "Value": "546"
         },
         {
           "Name": "Content-Type",
@@ -5500,11 +5542,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4=\""
+          "Value": "\"TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5522,18 +5564,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4="
+          "Value": "sha256-TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g="
         }
       ]
     },
     {
-      "Route": "css/site.syntz4g1w9.css",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-syntz4g1w9.gz",
+      "Route": "css/site.ti8qq3l1g7.css",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002242152466"
+          "Quality": "0.001828153565"
         }
       ],
       "ResponseHeaders": [
@@ -5543,15 +5585,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "445"
+          "Value": "546"
         },
         {
           "Name": "ETag",
-          "Value": "\"0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4=\""
+          "Value": "\"TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5571,13 +5613,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc=\""
+          "Value": "W/\"W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "syntz4g1w9"
+          "Value": "ti8qq3l1g7"
         },
         {
           "Name": "label",
@@ -5585,12 +5627,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc="
+          "Value": "sha256-W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c="
         }
       ]
     },
     {
-      "Route": "css/site.syntz4g1w9.css",
+      "Route": "css/site.ti8qq3l1g7.css",
       "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5600,7 +5642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "1313"
         },
         {
           "Name": "Content-Type",
@@ -5608,11 +5650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc=\""
+          "Value": "\"W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5622,7 +5664,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "syntz4g1w9"
+          "Value": "ti8qq3l1g7"
         },
         {
           "Name": "label",
@@ -5630,13 +5672,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lPGTJ8jUB09rnz5dxrZMIFVqjlyktbZG3+uTEdiyqbc="
+          "Value": "sha256-W3zMxRS5vUDCufmNBKiOQq8xHDGwYveIVBgTCogRO2c="
         }
       ]
     },
     {
-      "Route": "css/site.syntz4g1w9.css.gz",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-syntz4g1w9.gz",
+      "Route": "css/site.ti8qq3l1g7.css.gz",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5645,7 +5687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "445"
+          "Value": "546"
         },
         {
           "Name": "Content-Type",
@@ -5653,11 +5695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4=\""
+          "Value": "\"TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 17:35:13 GMT"
+          "Value": "Sun, 06 Apr 2025 17:18:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5675,7 +5717,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "syntz4g1w9"
+          "Value": "ti8qq3l1g7"
         },
         {
           "Name": "label",
@@ -5683,7 +5725,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0odGkTwRdz2qnMZ0HzrHDS5uHTlJcwENUsuo2Plgsb4="
+          "Value": "sha256-TUEFYxHwRT6ePg0ChWwNU6+Xo8SeObg8H3h+Ar2aa3g="
         }
       ]
     },
@@ -15146,6 +15188,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/landingimage.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/landingimage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1/JAi42nUyGptQL3hya0XGdrZg+iWeOVpix0OBs/yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1/JAi42nUyGptQL3hya0XGdrZg+iWeOVpix0OBs/yc="
+        }
+      ]
+    },
+    {
+      "Route": "images/landingimage.tykxsfw66l.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/landingimage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "217899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1/JAi42nUyGptQL3hya0XGdrZg+iWeOVpix0OBs/yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tykxsfw66l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/landingimage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1/JAi42nUyGptQL3hya0XGdrZg+iWeOVpix0OBs/yc="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64zxsSRi8Z7Q+x8fyWkZ6ULkHS5nj4hBpEWL8jOqaNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:29:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-64zxsSRi8Z7Q+x8fyWkZ6ULkHS5nj4hBpEWL8jOqaNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.xh9wn98f46.png",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64zxsSRi8Z7Q+x8fyWkZ6ULkHS5nj4hBpEWL8jOqaNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:29:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xh9wn98f46"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-64zxsSRi8Z7Q+x8fyWkZ6ULkHS5nj4hBpEWL8jOqaNg="
         }
       ]
     },

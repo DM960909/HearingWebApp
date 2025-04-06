@@ -1,0 +1,81 @@
+@model AccountSettingsViewModel
+@{
+    ViewData["Title"] = "Account Settings";
+}
+
+<div class="container mt-4">
+    <h4 class="mb-4 text-muted">@ViewData["Title"]</h4>
+
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3">
+            <div class="bg-light p-3 rounded shadow-sm">
+                <h6 class="text-secondary mb-3">Navigation</h6>
+                <div class="list-group">
+                    <a href="#update" class="list-group-item list-group-item-action active" data-bs-toggle="tab">
+                        Update Account Settings
+                    </a>
+                    <a href="#delete" class="list-group-item list-group-item-action" data-bs-toggle="tab">
+                        Delete Account
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="col-md-9">
+            <div class="tab-content p-4 bg-white border rounded shadow-sm">
+                <!-- Update Section -->
+                <div class="tab-pane fade show active" id="update">
+                    <form asp-action="Settings" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="FirstName"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="LastName"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="NewPassword"></label>
+                            <input asp-for="NewPassword" class="form-control" />
+                            <span asp-validation-for="NewPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="ConfirmPassword"></label>
+                            <input asp-for="ConfirmPassword" class="form-control" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>
+
+                <!-- Delete Section -->
+                <div class="tab-pane fade" id="delete">
+                    <p class="mt-3 text-danger">This action will permanently delete your account and all related data.</p>
+                    <form asp-action="DeleteAccount" method="post">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete your account?')">
+                            Delete My Account
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -45,7 +45,7 @@ public class AuthController : Controller
         if(result.Succeeded)
         {
             await _signInManager.SignInAsync(user, isPersistent:false);
-            return RedirectToAction("Dashboard", "Home");
+            return RedirectToAction("Dashboard", "Tinnitus");
         }
         foreach (var error in result.Errors)
         {

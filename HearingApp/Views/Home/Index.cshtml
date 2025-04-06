@@ -3,6 +3,27 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4 text-center">
+    Manage Your Tinnitus.<br />
+    <div style="line-height: 1.1">
+        <span class="d-block fade-in-word">Smarter.</span>
+        <span class="d-block fade-in-word fade-in-delay">Simpler.</span>
+    </div>
+    </h1>
+    <p>From logging your daily tinnitus severity and coping scores to accessing built-in audio therapy tools — get real-time AI-driven analysis to help you uncover patterns, stay in control, and feel supported throughout your journey.</p>
+</div>
+<div class="mt-4 d-flex gap-3 justify-content-center">
+    <a asp-controller="Auth" asp-action="Login" class="btn btn-primary px-4 py-2 rounded-pill">
+        Sign In
+    </a>
+    <a asp-controller="Auth" asp-action="Register" class="btn btn-dark px-4 py-2 rounded-pill">
+        Register
+    </a>
+</div>
+<!-- Full-width, edge-to-edge hero image -->
+<div class="d-flex justify-content-center w-100 p-0 m-0 mt-5">
+    <img src="~/images/landingimage.jpg"
+         alt="Tinuity App Preview"
+         class="rounded-5 shadow img-fluid"
+         style="max-width: 98vw; height: auto; display: block;" />
 </div>

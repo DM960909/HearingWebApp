@@ -4,6 +4,8 @@ using HearingApp.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Identity;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,8 +21,17 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(Options =>
 })
 
 
+
+
 .AddEntityFrameworkStores<ApplicationDbContext>();
 //ADDING DEFAULT CONNECTION FROM APPLICATION.JSON ^^^^
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Auth/Login"; // 👈 your actual login path
+    options.AccessDeniedPath = "/Auth/AccessDenied"; // optional
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
