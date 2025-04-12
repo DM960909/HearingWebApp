@@ -64,9 +64,30 @@ body {
   animation-delay: 0.5s;
 }
 
+.animated-words .word {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeInUp 0.5s ease forwards;
+  animation-delay: var(--delay);
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 @keyframes fadeInUp {
   to {
       opacity: 1;
       transform: translateY(0);
   }
+
+
+  
 }

@@ -13,12 +13,48 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/Aboutcaro.webp",
+      "PackagePath": "staticwebassets/images/Aboutcaro.webp"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.avif",
+      "PackagePath": "staticwebassets/images/DashboardCaro.avif"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/ai.svg",
+      "PackagePath": "staticwebassets/images/ai.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/aicaro.jpg",
+      "PackagePath": "staticwebassets/images/aicaro.jpg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audio.svg",
+      "PackagePath": "staticwebassets/images/audio.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.avif",
+      "PackagePath": "staticwebassets/images/audiocaro.avif"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/chatbot.jpg",
+      "PackagePath": "staticwebassets/images/chatbot.jpg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/dashboard.svg",
+      "PackagePath": "staticwebassets/images/dashboard.svg"
+    },
+    {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/landingimage.jpg",
       "PackagePath": "staticwebassets/images/landingimage.jpg"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/logo.png",
       "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/pattern.png",
+      "PackagePath": "staticwebassets/images/pattern.png"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/js/site.js",

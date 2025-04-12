@@ -300,4 +300,7 @@
 /Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
 /Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
 /Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/HearingApp.sourcelink.json
-/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-ti8qq3l1g7.gz
+/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/mdc7t9k6ac-bomwmjmguo.gz
+/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/zjlmkkqrra-dxc8x7qoz9.gz
+/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/i4co413b8w-6azk5a9v75.gz
+/Users/dylan/Desktop/HearingWebApp/HearingApp/obj/Debug/net9.0/compressed/tpt9fs4rw7-pxjn7ydrux.gz
