@@ -21,13 +21,12 @@
     </a>
 </div>
 <!-- Full-width, edge-to-edge hero image -->
-<div class="d-flex justify-content-center w-100 p-0 m-0 mt-5">
+<div class="w-100 px-3 px-md-5 mt-5">
     <img src="~/images/landingimage.jpg"
          alt="Tinuity App Preview"
-         class="rounded-5 shadow img-fluid"
-         style="max-width: 98vw; height: auto; display: block;" />
+         class="img-fluid rounded-4 shadow w-100"
+         style="display: block;" />
 </div>
-
 <div class="w-100 bg-white d-flex align-items-center justify-content-center" style="height: 350px;">
     <div class="text-center px-3">
         <h1 class="display-4 fw-bold" data-aos="fade-up" data-aos-duration="800">
@@ -118,35 +117,36 @@
     </div>
 </div>
 
-<div class="container py-5">
-    <div class="text-center mb-4">
+<div class="w-100 py-5 bg-white px-3 px-md-5">
+    <div class="text-center mb-5">
         <h2 class="fw-bold">Explore the Tinuity Experience</h2>
         <p class="text-muted">Take a closer look at the features that help you manage your tinnitus journey.</p>
     </div>
 
     <div id="tinuityCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-12 col-md-6 mb-4 mb-md-0 position-relative">
+                <div class="row gx-4">
+                    <div class="col-12 col-md-6 position-relative mb-4 mb-md-0">
                         <a href="/Tinnitus/Dashboard"
-                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6">
+                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Dashboard
                         </a>
                         <img src="~/images/dashboardcaro.avif"
                              class="d-block w-100 rounded-4 shadow"
-                             style="height: 400px; object-fit: cover;"
+                             style="height: 480px; object-fit: cover;"
                              alt="Screenshot 1">
                     </div>
                     <div class="col-12 col-md-6 position-relative">
                         <a href="/AI"
-                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6">
+                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Discover AI Tooling
                         </a>
                         <img src="~/images/aicaro.jpg"
                              class="d-block w-100 rounded-4 shadow"
-                             style="height: 400px; object-fit: cover;"
+                             style="height: 480px; object-fit: cover;"
                              alt="Screenshot 2">
                     </div>
                 </div>
@@ -154,25 +154,25 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="row">
-                    <div class="col-12 col-md-6 mb-4 mb-md-0 position-relative">
+                <div class="row gx-4">
+                    <div class="col-12 col-md-6 position-relative mb-4 mb-md-0">
                         <a href="/Sound"
-                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6">
+                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Sound Zone
                         </a>
                         <img src="~/images/audiocaro.avif"
                              class="d-block w-100 rounded-4 shadow"
-                             style="height: 400px; object-fit: cover;"
+                             style="height: 480px; object-fit: cover;"
                              alt="Screenshot 3">
                     </div>
                     <div class="col-12 col-md-6 position-relative">
                         <a href="/About"
-                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6">
+                           class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             About the Journey
                         </a>
                         <img src="~/images/aboutcaro.webp"
                              class="d-block w-100 rounded-4 shadow"
-                             style="height: 400px; object-fit: cover;"
+                             style="height: 480px; object-fit: cover;"
                              alt="Screenshot 4">
                     </div>
                 </div>
@@ -188,5 +188,140 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div>
+</div>
+
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#tinuityCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#tinuityCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+
+<div class="w-100 py-5 bg-white">
+    <div class="container px-4 px-md-5">
+        <div class="row align-items-center justify-content-center g-5">
+            
+            <!-- Text Section -->
+            <div class="col-12 col-md-6">
+                <h2 class="fw-bold mb-5 text-start">Welcome to Your Personal Audio Zone</h2>
+
+                <!-- Block 1 -->
+                <div class="d-flex align-items-start mb-4 text-start">
+                    <img src="~/images/usersound.svg" alt="Tailored Soundscapes" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Tailored Soundscapes</h5>
+                        <p class="text-muted mb-0">
+                            Create your ideal environment with immersive nature-inspired sounds — from calming forest ambience to ocean waves, shaped by your needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 2 -->
+                <div class="d-flex align-items-start mb-4 text-start">
+                    <img src="~/images/customise.svg" alt="Smart Customization" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Smart Customization</h5>
+                        <p class="text-muted mb-0">
+                            Use intuitive faders to fine-tune elements like soft rain, deep white noise, or higher-pitched tones — giving you full control over what calms you best.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 3 -->
+                <div class="d-flex align-items-start text-start">
+                    <img src="~/images/usericon.svg" alt="Designed for Focus & Calm" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Designed for Focus & Calm</h5>
+                        <p class="text-muted mb-0">
+                            Whether you’re unwinding, working, or navigating a spike, your personalized audio mix supports clarity, calmness, and comfort throughout the day.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <img src="~/images/SoundscapeImage.png" 
+                     alt="Audio Zone Preview" 
+                     class="img-fluid rounded-4 shadow" 
+                     style="object-fit: cover; max-height: 500px; width: 100%;" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="w-100 py-6 bg-white px-3 px-md-5" style="padding-top: 6rem; padding-bottom: 6rem;">
+    <div class="container-fluid">
+        <div class="row align-items-start g-5">
+            
+            <!-- Left: Large Title -->
+            <div class="col-12 col-md-6">
+                <h2 class="fw-bold display-5 text-start mb-4">
+                    Stay Informed.<br />
+                    Stay in Control.<br />
+                    Your Dashboard, at a Glance.
+                </h2>
+            </div>
+
+            <!-- Right: 3 Informative Blocks with Icons -->
+            <div class="col-12 col-md-6">
+
+                <!-- Block 1 -->
+                <div class="d-flex align-items-start mb-5">
+                    <img src="~/images/progress.svg" alt="Track Progress Icon" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Track Your Progress</h5>
+                        <p class="text-muted mb-0">
+                            View your tinnitus scores over time with clean graphs and summaries that show improvement, spikes, or emerging trends.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 2 -->
+                <div class="d-flex align-items-start mb-5">
+                    <img src="~/images/summary.svg" alt="Weekly Summary Icon" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Weekly Summaries</h5>
+                        <p class="text-muted mb-0">
+                            Get a bird’s-eye view of how your coping and severity scores evolve with week-by-week breakdowns.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Block 3 -->
+                <div class="d-flex align-items-start">
+                    <img src="~/images/insightpattern.svg" alt="Patterns Icon" class="me-3 mt-1" style="width: 32px; height: 32px;" />
+                    <div>
+                        <h5 class="fw-semibold mb-1">Spot Patterns Instantly</h5>
+                        <p class="text-muted mb-0">
+                            Easily correlate habits, moods, or routines with tinnitus shifts using smart visual summaries.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="w-100 position-relative"
+     style="background: url('/images/cta-background.png') no-repeat center center;
+            background-size: cover;
+            height: 450px;">
+    
+    <div class="position-absolute top-0 start-0 mt-4 ms-4">
+        <h2 class="text-white display-6 fw-bold text-start">
+            Ready to Take Control of<br />Your Tinnitus?
+        </h2>
     </div>
 </div>

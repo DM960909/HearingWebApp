@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/images/DashboardCaro.avif"
     },
     {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/SoundscapeImage.png",
+      "PackagePath": "staticwebassets/images/SoundscapeImage.png"
+    },
+    {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/ai.svg",
       "PackagePath": "staticwebassets/images/ai.svg"
     },
@@ -41,8 +45,20 @@
       "PackagePath": "staticwebassets/images/chatbot.jpg"
     },
     {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/cta-background.png",
+      "PackagePath": "staticwebassets/images/cta-background.png"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/customise.svg",
+      "PackagePath": "staticwebassets/images/customise.svg"
+    },
+    {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/dashboard.svg",
       "PackagePath": "staticwebassets/images/dashboard.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/insightpattern.svg",
+      "PackagePath": "staticwebassets/images/insightpattern.svg"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/landingimage.jpg",
@@ -55,6 +71,22 @@
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/pattern.png",
       "PackagePath": "staticwebassets/images/pattern.png"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/progress.svg",
+      "PackagePath": "staticwebassets/images/progress.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/summary.svg",
+      "PackagePath": "staticwebassets/images/summary.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/usericon.svg",
+      "PackagePath": "staticwebassets/images/usericon.svg"
+    },
+    {
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/usersound.svg",
+      "PackagePath": "staticwebassets/images/usersound.svg"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/js/site.js",
