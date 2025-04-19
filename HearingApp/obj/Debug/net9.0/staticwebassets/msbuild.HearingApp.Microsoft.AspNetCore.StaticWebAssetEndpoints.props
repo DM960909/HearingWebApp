@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HearingApp.qh01o6h9ix.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 18:40:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 17:50:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/HearingApp.qh01o6h9ix.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HearingApp.qh01o6h9ix.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qh01o6h9ix"},{"Name":"integrity","Value":"sha256-vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto="},{"Name":"label","Value":"_content/HearingApp/HearingApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 18:40:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 17:50:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/images/Aboutcaro.5ojkry3a7h.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Aboutcaro.webp'))</AssetFile>

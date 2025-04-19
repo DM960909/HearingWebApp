@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HearingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b71bbb3d91a1a0f41008ad29dc1781b0c8a12f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f38f94994b51ba78fe042c0af7e0cc6ae4bab3fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("HearingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HearingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
