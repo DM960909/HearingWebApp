@@ -47,25 +47,27 @@
 
                     <!-- Right-Aligned Auth Links -->
                     <ul class="navbar-nav ms-auto flex-row gap-2">
-                        @if (User.Identity.IsAuthenticated)
+                        @if (User.Identity?.IsAuthenticated == true)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="/Tinnitus/Dashboard">Dashboard</a>
+                                <a class="nav-link text-dark" asp-controller="Tinnitus" asp-action="Dashboard">Dashboard</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="/Account/Settings">Account</a>
+                                <a class="nav-link text-dark" asp-controller="Account" asp-action="Settings">Account</a>
                             </li>
                         }
                         else
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="/Auth/Login">Sign In</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="/Auth/Register">Register</a>
-                            </li>
+                            <a asp-controller="Auth" asp-action="Login" class="btn btn-outline-primary me-2 rounded-pill">
+                                Sign In
+                            </a>
+                            <a asp-controller="Auth" asp-action="Register" class="btn btn-dark rounded-pill">
+                                Register
+                            </a>
                         }
                     </ul>
+
+                    
                 </div>
             </div>
         </nav>
