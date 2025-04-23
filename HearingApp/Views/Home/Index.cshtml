@@ -12,14 +12,37 @@
     </h1>
     <p>From logging your daily tinnitus severity and coping scores to accessing built-in audio therapy tools — get real-time AI-driven analysis to help you uncover patterns, stay in control, and feel supported throughout your journey.</p>
 </div>
+
+
+
 <div class="mt-4 d-flex gap-3 justify-content-center">
-    <a asp-controller="Auth" asp-action="Login" class="btn btn-primary px-4 py-2 rounded-pill">
-        Sign In
-    </a>
-    <a asp-controller="Auth" asp-action="Register" class="btn btn-dark px-4 py-2 rounded-pill">
-        Register
-    </a>
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <a class="nav-link text-dark btn btn-outline-primary rounded-pill px-4 py-2"
+           asp-controller="Tinnitus" asp-action="Dashboard">
+            Dashboard
+        </a>
+        <a class="nav-link text-dark btn btn-outline-secondary rounded-pill px-4 py-2"
+           asp-controller="Account" asp-action="Settings">
+            Account
+        </a>
+    }
+    else
+    {
+        <a asp-controller="Auth" asp-action="Login"
+           class="btn btn-outline-primary px-4 py-2 rounded-pill">
+            Sign In
+        </a>
+        <a asp-controller="Auth" asp-action="Register"
+           class="btn btn-dark px-4 py-2 rounded-pill">
+            Register
+        </a>
+    }
 </div>
+
+
+
+
 <!-- Full-width, edge-to-edge hero image -->
 
 <div class="w-100 mt-5" style="overflow: hidden;">
@@ -129,6 +152,7 @@
         <p class="text-muted">Take a closer look at the features that help you manage your tinnitus journey.</p>
     </div>
 
+  <div class="w-100 py-5 bg-white px-3 px-md-5">
     <div id="tinuityCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
@@ -140,20 +164,20 @@
                            class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Dashboard
                         </a>
-                        <img src="~/images/dashboardcaro.avif"
+                        <img src="@Url.Content("~/images/DashboardCaro.jpg")"
                              class="d-block w-100 rounded-4 shadow"
                              style="height: 750px; object-fit: cover;"
-                             alt="Screenshot 1">
+                             alt="Screenshot 1" />
                     </div>
                     <div class="col-12 col-md-6 position-relative">
                         <a href="/AI"
                            class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Discover AI Tooling
                         </a>
-                        <img src="~/images/aicaro.jpg"
+                        <img src="@Url.Content("~/images/aicaro.jpg")"
                              class="d-block w-100 rounded-4 shadow"
                              style="height: 750px; object-fit: cover;"
-                             alt="Screenshot 2">
+                             alt="Screenshot 2" />
                     </div>
                 </div>
             </div>
@@ -166,20 +190,20 @@
                            class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             Sound Zone
                         </a>
-                        <img src="~/images/audiocaro.avif"
+                        <img src="@Url.Content("~/images/audiocaro.jpg")"
                              class="d-block w-100 rounded-4 shadow"
                              style="height: 750px; object-fit: cover;"
-                             alt="Screenshot 3">
+                             alt="Screenshot 3" />
                     </div>
                     <div class="col-12 col-md-6 position-relative">
                         <a href="/About"
                            class="position-absolute top-0 start-0 mt-3 ms-3 text-white text-decoration-underline fs-6 z-2">
                             About the Journey
                         </a>
-                        <img src="~/images/aboutcaro.webp"
+                        <img src="@Url.Content("~/images/Aboutcaro.webp")"
                              class="d-block w-100 rounded-4 shadow"
                              style="height: 750px; object-fit: cover;"
-                             alt="Screenshot 4">
+                             alt="Screenshot 4" />
                     </div>
                 </div>
             </div>

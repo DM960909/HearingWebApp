@@ -1,32 +1,83 @@
 @model List<WeeklyViewModel>
 
-<h2>Weekly Summary</h2>
+<h2>Your Weekly Tinnitus Feedback</h2>
 
-@foreach (var week in Model)
-{
-    <div class="mb-4">
-        <h5>Week @week.WeekNumber</h5>
-        <p><strong>Avg Severity:</strong> @week.AverageSeverity.ToString("0.0")</p>
-        <p><strong>Avg Coping:</strong> @week.AverageCoping.ToString("0.0")</p>
+<canvas id="weeklyScoreChart" width="400" height="200"></canvas>
+<canvas id="avgScoreChart" width="400" height="200"></canvas>
 
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Severity</th>
-                    <th>Coping</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var entry in week.Entries)
+<script>
+    // Line chart
+    const weeklyCtx = document.getElementById('weeklyScoreChart').getContext('2d');
+    const weeklyScoreChart = new Chart(weeklyCtx, {
+        type: 'line',
+        data: {
+            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],  // DUMMY DATA - COME BACK AND UPDATE WITH A FULL DB WEEK - 
+                                                                        //NEED TO FIGURE OUT WHAT TO DO IF A USER FORGETS A DAY ETC
+            datasets: [
                 {
-                    <tr>
-                        <td>@entry.CreatedAt.ToShortDateString()</td>
-                        <td>@entry.SeverityScore</td>
-                        <td>@entry.CopingScore</td>
-                    </tr>
+                    label: 'Tinnitus Level',
+                    data: [4, 5, 3, 6, 4, 5, 3],
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    fill: false,
+                    tension: 0.4
+                },
+                {
+                    label: 'Coping Level',
+                    data: [3, 1, 2, 6, 7, 1, 3],
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    fill: false,
+                    tension: 0.4
                 }
-            </tbody>
-        </table>
-    </div>
-}
+            ]
+        },
+        options: {
+            responsive: true,
+            animation: {
+                duration: 1000,
+                easing: 'easeInOutCubic' //Animation Style - More found on Chart.js Docs
+            },
+            elements: {
+                line: {
+                    tension: 0.4
+                },
+                point: {
+                    radius: 0
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    min: 0,
+                    max: 10
+                }
+            }
+        }
+    });
+
+    //END LINE CHART 
+
+    // Pie chart
+    const avgCtx = document.getElementById('avgScoreChart').getContext('2d');
+    const avgScoreChart = new Chart(avgCtx, {
+        type: 'pie',
+        data: {
+            labels: ['Average Tinnitus', 'Average Coping'],
+            datasets: [{
+                label: 'Average Scores',
+                data: [
+                    @Model.First().AverageSeverity.ToString("0.0"),
+                    @Model.First().AverageCoping.ToString("0.0")
+                ],
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)'
+                ],
+                hoverOffset: 4
+            }]
+        }
+    });
+
+    //END PIE CHART 
+</script>

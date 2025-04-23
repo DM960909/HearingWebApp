@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eRCplBq2ug/PDiIDMkFIWVlVfDi9lpFuKxHDrGOeNzk=",
+  "Hash": "cygpJ//btOUvKshBhKlGT/KD7YV1dfz2w3edoHIKFcM=",
   "Source": "HearingApp",
   "BasePath": "_content/HearingApp",
   "Mode": "Default",
@@ -4343,12 +4343,12 @@
       "OriginalItemSpec": "wwwroot/images/audio.svg"
     },
     {
-      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.avif",
+      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.jpg",
       "SourceId": "HearingApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/",
       "BasePath": "_content/HearingApp",
-      "RelativePath": "images/audiocaro#[.{fingerprint}]?.avif",
+      "RelativePath": "images/audiocaro#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4361,7 +4361,7 @@
       "Integrity": "onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/audiocaro.avif"
+      "OriginalItemSpec": "wwwroot/images/audiocaro.jpg"
     },
     {
       "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/chatbot.jpg",
@@ -4448,12 +4448,12 @@
       "OriginalItemSpec": "wwwroot/images/dashboard.svg"
     },
     {
-      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.avif",
+      "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.jpg",
       "SourceId": "HearingApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/",
       "BasePath": "_content/HearingApp",
-      "RelativePath": "images/DashboardCaro#[.{fingerprint}]?.avif",
+      "RelativePath": "images/DashboardCaro#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4466,7 +4466,7 @@
       "Integrity": "u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/DashboardCaro.avif"
+      "OriginalItemSpec": "wwwroot/images/DashboardCaro.jpg"
     },
     {
       "Identity": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/insightpattern.svg",
@@ -6635,7 +6635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6688,7 +6688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6725,7 +6725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6772,7 +6772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6833,7 +6833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6878,7 +6878,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6933,7 +6933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6994,7 +6994,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7039,7 +7039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7094,7 +7094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7147,7 +7147,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7184,7 +7184,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16498,8 +16498,8 @@
       ]
     },
     {
-      "Route": "images/audiocaro.2gy98mcmj7.avif",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.avif",
+      "Route": "images/audiocaro.2gy98mcmj7.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16512,7 +16512,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -16534,7 +16534,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/audiocaro.avif"
+          "Value": "images/audiocaro.jpg"
         },
         {
           "Name": "integrity",
@@ -16543,8 +16543,8 @@
       ]
     },
     {
-      "Route": "images/audiocaro.avif",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.avif",
+      "Route": "images/audiocaro.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16557,7 +16557,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -16569,7 +16569,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -17340,8 +17340,8 @@
       ]
     },
     {
-      "Route": "images/DashboardCaro.avif",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.avif",
+      "Route": "images/DashboardCaro.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17354,7 +17354,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -17366,7 +17366,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -17377,8 +17377,8 @@
       ]
     },
     {
-      "Route": "images/DashboardCaro.pz4oipmu3r.avif",
-      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.avif",
+      "Route": "images/DashboardCaro.pz4oipmu3r.jpg",
+      "AssetFile": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17391,7 +17391,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -17413,7 +17413,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/DashboardCaro.avif"
+          "Value": "images/DashboardCaro.jpg"
         },
         {
           "Name": "integrity",

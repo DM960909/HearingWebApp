@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HearingApp.qh01o6h9ix.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 18:39:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 19:14:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/HearingApp.qh01o6h9ix.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HearingApp.qh01o6h9ix.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qh01o6h9ix"},{"Name":"integrity","Value":"sha256-vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto="},{"Name":"label","Value":"_content/HearingApp/HearingApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 18:39:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1079"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vvgtfh7agjxTpHYYr\u002B/Q91Te3e4a1obz1bzt750\u002Bwto=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 19:14:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/images/Aboutcaro.5ojkry3a7h.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Aboutcaro.webp'))</AssetFile>
@@ -84,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jy99FxZVzQuAJHqB9NXn2pXPyQDBtIbTwYL5bN4hTAw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"510"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022jy99FxZVzQuAJHqB9NXn2pXPyQDBtIbTwYL5bN4hTAw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 19:39:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HearingApp/images/audiocaro.2gy98mcmj7.avif">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\audiocaro.avif'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HearingApp/images/audiocaro.2gy98mcmj7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\audiocaro.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2gy98mcmj7"},{"Name":"integrity","Value":"sha256-onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU="},{"Name":"label","Value":"_content/HearingApp/images/audiocaro.avif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14745"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2gy98mcmj7"},{"Name":"integrity","Value":"sha256-onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU="},{"Name":"label","Value":"_content/HearingApp/images/audiocaro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14745"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HearingApp/images/audiocaro.avif">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\audiocaro.avif'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HearingApp/images/audiocaro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\audiocaro.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14745"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14745"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022onaLEEI94jprXFF9YXubST2SSaGECLNdF/o97GByUaU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/images/chatbot.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\chatbot.jpg'))</AssetFile>
@@ -144,17 +144,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nswlK\u002BVL0YZsWRB5ageTNIDfSdR6dZYLSOhjJeZKB6o="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1323"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022nswlK\u002BVL0YZsWRB5ageTNIDfSdR6dZYLSOhjJeZKB6o=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 19:39:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HearingApp/images/DashboardCaro.avif">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DashboardCaro.avif'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HearingApp/images/DashboardCaro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DashboardCaro.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"20112"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20112"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HearingApp/images/DashboardCaro.pz4oipmu3r.avif">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DashboardCaro.avif'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/HearingApp/images/DashboardCaro.pz4oipmu3r.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DashboardCaro.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pz4oipmu3r"},{"Name":"integrity","Value":"sha256-u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk="},{"Name":"label","Value":"_content/HearingApp/images/DashboardCaro.avif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20112"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pz4oipmu3r"},{"Name":"integrity","Value":"sha256-u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk="},{"Name":"label","Value":"_content/HearingApp/images/DashboardCaro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20112"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022u5pBO/SYLGLvfPtl/043nqpoi3SOhqOwZqAOZv5TnAk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 20:02:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HearingApp/images/insightpattern.a3z74w4m94.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\insightpattern.svg'))</AssetFile>

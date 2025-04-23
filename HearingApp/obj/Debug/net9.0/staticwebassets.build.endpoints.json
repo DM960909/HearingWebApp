@@ -43,7 +43,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Vary",
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -141,7 +141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Vary",
@@ -204,7 +204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Vary",
@@ -245,7 +245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -286,7 +286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:39:37 GMT"
+          "Value": "Sat, 19 Apr 2025 19:14:51 GMT"
         },
         {
           "Name": "Vary",
@@ -9510,8 +9510,8 @@
       ]
     },
     {
-      "Route": "images/DashboardCaro.avif",
-      "AssetFile": "images/DashboardCaro.avif",
+      "Route": "images/DashboardCaro.jpg",
+      "AssetFile": "images/DashboardCaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9520,7 +9520,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -9528,7 +9528,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -9547,8 +9547,8 @@
       ]
     },
     {
-      "Route": "images/DashboardCaro.pz4oipmu3r.avif",
-      "AssetFile": "images/DashboardCaro.avif",
+      "Route": "images/DashboardCaro.pz4oipmu3r.jpg",
+      "AssetFile": "images/DashboardCaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9565,7 +9565,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -9587,7 +9587,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/DashboardCaro.avif"
+          "Value": "images/DashboardCaro.jpg"
         }
       ]
     },
@@ -10352,8 +10352,8 @@
       ]
     },
     {
-      "Route": "images/audiocaro.2gy98mcmj7.avif",
-      "AssetFile": "images/audiocaro.avif",
+      "Route": "images/audiocaro.2gy98mcmj7.jpg",
+      "AssetFile": "images/audiocaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10370,7 +10370,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
@@ -10392,13 +10392,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/audiocaro.avif"
+          "Value": "images/audiocaro.jpg"
         }
       ]
     },
     {
-      "Route": "images/audiocaro.avif",
-      "AssetFile": "images/audiocaro.avif",
+      "Route": "images/audiocaro.jpg",
+      "AssetFile": "images/audiocaro.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10407,7 +10407,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -10415,7 +10415,7 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",

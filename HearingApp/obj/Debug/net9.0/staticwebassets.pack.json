@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets/images/Aboutcaro.webp"
     },
     {
-      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.avif",
-      "PackagePath": "staticwebassets/images/DashboardCaro.avif"
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/DashboardCaro.jpg",
+      "PackagePath": "staticwebassets/images/DashboardCaro.jpg"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/SoundscapeImage.png",
@@ -37,8 +37,8 @@
       "PackagePath": "staticwebassets/images/audio.svg"
     },
     {
-      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.avif",
-      "PackagePath": "staticwebassets/images/audiocaro.avif"
+      "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/audiocaro.jpg",
+      "PackagePath": "staticwebassets/images/audiocaro.jpg"
     },
     {
       "Id": "/Users/dylan/Desktop/HearingWebApp/HearingApp/wwwroot/images/chatbot.jpg",
